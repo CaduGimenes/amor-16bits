@@ -1,0 +1,34 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+body {
+    margin: 0px;
+}
+
+.balloon.nes-container .nes-balloon {
+    max-width: 600px;
+    margin: 2rem 2rem;
+  }
+  
+  .balloon.nes-container .messages {
+    display: flex;
+    flex-direction: column;
+  }
+  .balloon.nes-container .message {
+    display: flex;
+  }
+  .balloon.nes-container .message i {
+    align-self: flex-end;
+  }
+  .balloon.nes-container .message.-left {
+    align-self: flex-start;
+  }
+  .balloon.nes-container .message.-right {
+    align-self: flex-end;
+  }

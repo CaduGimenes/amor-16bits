@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amor 16bits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/nes.css@1.0.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <!-- Javascript -->
+</head>
+
+<body>
+    <iframe src="audios/silence.mp3" allow="autoplay" style="display:none"></iframe>
+    <audio id="audio" autoplay>
+        <source src="" type="audio/mp3">
+
+    </audio>
+    <div class="container">
+        <div class="col" id="textoBoasVindasFade">
+            <div class="nes-container is-rounded">
+                <div id="textoBoasVindas">
+                    <p>
+                        &nbsp;^2000Olá, Anna. Seja bem vinda a este universo.^2000
+                    </p>
+                    <p>Antes de começarmos, prepare-se, tudo isso é por você.</p>
+                </div>
+
+                <span id="typed"></span>
+            </div>
+        </div>
+
+
+        <div class="nes-container is-centered" id="primeiroEvento">
+            <div id="textoPrimeiroEvento">
+                <p>^14000E foi assim que tudo começou..^2000</p>
+                <p>Aquela palavra...</p>
+            </div>
+            <span id="typedPrimeiroEvento"></span>
+
+        </div>
+
+        <div id="segundoEvento">
+            <section class="balloon nes-container with-title">
+                <h2 class="title">Sentados em uma sala</h2>
+                <div class="messages">
+                    <div class="message -left">
+                        <i class="nes-bcrikko"></i>
+                        <div class="nes-balloon from-left">
+                            <div id="dialogoAnna1">
+                                <p>^25500(Olhar tímido)^1500</p>
+                                <p><i class="nes-icon like"></i></p>
+                            </div>
+                            <span id="respostaDialogoAnna1"></span>
+                        </div>
+                    </div>
+                    <div class="message -right">
+                        <div class="nes-balloon from-right">
+                            <div id="dialogoCarlos1">
+                                <p>^23500Blz? <i class="nes-icon like"></i></p>
+                            </div>
+                            <span id="respostaDialogoCarlos1"></span>
+                        </div>
+                        <i class="nes-bcrikko"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="nes-container is-centered" id="terceiroEvento">
+            <div id="textoTerceiroEvento">
+                <p>^32000E foi ai, neste momento^2000</p>
+                <p>Em que eu percebi...^2000</p>
+                <p>Finalmente encontrei^2000</p>
+            </div>
+            <span id="typedTerceiroEvento"></span>
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script src="js/index.js"></script>
+
+
+</html>
