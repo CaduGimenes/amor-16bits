@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    var audio = document.getElementById("audio");
+    audio.volume = 0.2;
+
+
     $("#primeiroEvento").hide()
     $("#segundoEvento").hide()
     $("#terceiroEvento").hide()
@@ -56,7 +60,7 @@ $(document).ready(function () {
     }, 78000)
 
     setTimeout(function () {
-        $("#sextoEvento").fadeOut(2000)
+        $("#sextoEvento").fadeIn(2000)
     }, 80000)
 
     var textoPrimeiroEvento = new Typed('#typedPrimeiroEvento', {
@@ -94,11 +98,16 @@ $(document).ready(function () {
         typeSpeed: 30
     })
 
+    var textoSextoEvento = new Typed('#typedSextoEvento', {
+        stringsElement: '#textoSextoEvento',
+        typeSpeed: 30
+    })
 
-    var audio = document.getElementById("audio");
 
+
+   
     // Reproduzir as músicas uma por uma
-    var strings = "acceptance,le-dernier-jour-de-lautomne,afraid-of-destiny,the-world-light".split(",");
+    /*var strings = "acceptance,le-dernier-jour-de-lautomne,the-world-light".split(",");
     var index = 1;
 
     audio.src = 'audios/' + strings[0] + '.mp3';
@@ -111,9 +120,7 @@ $(document).ready(function () {
             index++;
         }
     };
-
-    audio.volume = 0.2;
-
+    */
 
 
 })
